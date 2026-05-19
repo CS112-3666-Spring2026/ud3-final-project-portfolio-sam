@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.ud2.controllers.WeightsController">
+    <children>
+        <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <top>
+            <BorderPane BorderPane.alignment="CENTER">
+               <left>
+                      <Label prefHeight="26.0" prefWidth="104.0" text="Add Weights Exercises" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+            </top>
+            <left>
+                <VBox prefHeight="374.0" prefWidth="141.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                            <children>
+                                <Label text="Name" />
+                                <TextField fx:id="weightsNameTextField" prefHeight="25.0" prefWidth="80.0" promptText="Ex. Bench" />
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                            <children>
+                                <Label text="Reps" />
+                                <TextField fx:id="weightsRepsTextField" prefHeight="25.0" prefWidth="40.0" promptText="Ex. 8" />
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                            <children>
+                                <Label text="Weight" />
+                                <TextField fx:id="weightsWeightTextField" prefHeight="25.0" prefWidth="46.0" promptText="Ex. 135" />
+                            </children>
+                        </HBox>
+                  <HBox layoutX="10.0" layoutY="210.0" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Sets" />
+                        <TextField fx:id="weightsSetsTextField" prefHeight="25.0" prefWidth="46.0" promptText="Ex. 3" />
+                     </children>
+                  </HBox>
+                    </children>
+                </VBox>
+            </left>
+            <right>
+                <BorderPane prefHeight="374.0" prefWidth="189.0" BorderPane.alignment="CENTER">
+                    <left>
+                        <Button fx:id="weightsAddButton" mnemonicParsing="false" onAction="#onWeightsAddButtonClick" text="Add Exercise" BorderPane.alignment="CENTER" />
+                    </left>
+                    <right>
+                        <Button fx:id="weightsSaveButton" mnemonicParsing="false" onAction="#onWeightsSaveButtonClick" text="Save" BorderPane.alignment="CENTER" />
+                    </right>
+                </BorderPane>
+            </right>
+            <center>
+                <ListView fx:id="weightsTextField" prefHeight="334.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+            </center>
+        </BorderPane>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</AnchorPane>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="920.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.ud2.controllers.WeekController">
+   <children>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Week" textAlignment="CENTER" />
+      <HBox prefHeight="300.0" prefWidth="672.0">
+         <children>
+            <VBox alignment="TOP_CENTER" prefHeight="301.0" prefWidth="130.0">
+               <children>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Monday" textAlignment="CENTER" />
+                  <Pane prefHeight="300.0" prefWidth="130.0">
+                     <children>
+                        <Label fx:id="workoutNameMonday" text="workoutNameMonday" wrapText="true" />
+                        <ListView fx:id="listViewMonday" layoutY="19.0" prefHeight="265.0" prefWidth="130.0" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="editButtonMonday" mnemonicParsing="false" onAction="#onEditButtonMondayClick" text="Edit" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" prefHeight="113.0" prefWidth="130.0">
+               <children>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Tuesday" textAlignment="CENTER" />
+                  <Pane prefHeight="300.0" prefWidth="130.0">
+                     <children>
+                        <Label fx:id="workoutNameTuesday" text="workoutNameTuesday" wrapText="true" />
+                        <ListView fx:id="listViewTuesday" layoutY="19.0" prefHeight="265.0" prefWidth="130.0" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="editButtonTuesday" mnemonicParsing="false" onAction="#onEditButtonTuesdayClick" text="Edit" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="110.0" layoutY="10.0" prefHeight="113.0" prefWidth="130.0">
+               <children>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Wednesday" textAlignment="CENTER" />
+                  <Pane prefHeight="300.0" prefWidth="130.0">
+                     <children>
+                        <Label fx:id="workoutNameWednesday" text="workoutNameWednesday" wrapText="true" />
+                        <ListView fx:id="listViewWednesday" layoutY="19.0" prefHeight="265.0" prefWidth="130.0" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="editButtonWednesday" mnemonicParsing="false" onAction="#onEditButtonWednesdayClick" text="Edit" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="210.0" layoutY="10.0" prefHeight="113.0" prefWidth="130.0">
+               <children>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Thursday" textAlignment="CENTER" />
+                  <Pane prefHeight="300.0" prefWidth="130.0">
+                     <children>
+                        <Label fx:id="workoutNameThursday" text="workoutNameThursday" wrapText="true" />
+                        <ListView fx:id="listViewThursday" layoutY="19.0" prefHeight="265.0" prefWidth="130.0" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="editButtonThursday" mnemonicParsing="false" onAction="#onEditButtonThursdayClick" text="Edit" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="310.0" layoutY="10.0" prefHeight="113.0" prefWidth="130.0">
+               <children>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Friday" textAlignment="CENTER" />
+                  <Pane prefHeight="300.0" prefWidth="130.0">
+                     <children>
+                        <Label fx:id="workoutNameFriday" text="workoutNameFriday" wrapText="true" />
+                        <ListView fx:id="listViewFriday" layoutY="19.0" prefHeight="265.0" prefWidth="130.0" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="editButtonFriday" mnemonicParsing="false" onAction="#onEditButtonFridayClick" text="Edit" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="410.0" layoutY="10.0" prefHeight="113.0" prefWidth="130.0">
+               <children>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Saturday" textAlignment="CENTER" />
+                  <Pane prefHeight="300.0" prefWidth="130.0">
+                     <children>
+                        <Label fx:id="workoutNameSaturday" text="workoutNameSaturday" wrapText="true" />
+                        <ListView fx:id="listViewSaturday" layoutY="19.0" prefHeight="265.0" prefWidth="130.0" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="editButtonSaturday" mnemonicParsing="false" onAction="#onEditButtonSaturdayClick" text="Edit" />
+               </children>
+            </VBox>
+            <VBox alignment="TOP_CENTER" layoutX="310.0" layoutY="10.0" prefHeight="113.0" prefWidth="130.0">
+               <children>
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" text="Sunday" textAlignment="CENTER" />
+                  <Pane prefHeight="300.0" prefWidth="130.0">
+                     <children>
+                        <Label fx:id="workoutNameSunday" text="workoutNameSunday" wrapText="true" />
+                        <ListView fx:id="listViewSunday" layoutY="19.0" prefHeight="265.0" prefWidth="130.0" />
+                     </children>
+                  </Pane>
+                  <Button fx:id="editButtonSunday" mnemonicParsing="false" onAction="#onEditButtonSundayClick" text="Edit" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>
