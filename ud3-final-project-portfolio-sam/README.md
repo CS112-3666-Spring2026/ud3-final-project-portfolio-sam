@@ -1,8 +1,12 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23948324)
-# Unit Deliverable 2 - Final Project GUI
-Modify this file to contain a description of your project, as well as your GUI wireframe images. You can add them to your project directory and use a relative path, or upload them to [imgur](https://imgur.com/upload).
+Sam Jorgensen UD3
+LiftSwim Workout Planner
 
-Use [Markdown](https://www.markdownguide.org/basic-syntax) to format appropriately.
+I decided to do my idea because I started swimming recently, but I have been wanting to get back into lifting weights too. I felt like I should design a workout planner that can do both all in one. It ended up being a really cool project and I am going to keep working on it
 
-## GUI Wireframe
-Embed your wireframe image(s) here!
+<img width="1548" height="1061" alt="Animation" src="https://github.com/user-attachments/assets/da1ff865-186c-4d45-99cb-3543f6e70755" />
+
+
+
+<img width="1152" height="884" alt="UD1UMLV4 drawio(2)" src="https://github.com/user-attachments/assets/f8dc3e75-8318-4add-9516-ee6094207679" />
+
+<img width="2744" height="3663" alt="jorgensenGUI" src="https://github.com/user-attachments/assets/7996cf2a-3f35-47ee-9a31-8485f2828f19" />
